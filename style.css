@@ -247,8 +247,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /* padding: 0.4em; */
-    margin: 0.7em
+    margin: 0.7em;
 }
 .friendpic2 img{
     width: 3.2em;
