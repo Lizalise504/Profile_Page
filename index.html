@@ -30,7 +30,7 @@
                     <h3><img src="./Icons/map-marker.png" alt="map maker image"> Seattle</h3>
                     <p>Developer | Engineer | Problem Solver <br> Master of shadows and the Internet!</p>
                     <div class="gear">
-                        <a href="#"><img src="./Icons/gear.png" alt="settings image">edit profile</a>
+                        <a href="#" onclick="update()"><img src="./Icons/gear.png" alt="settings image">edit profile</a>
                     </div>
                 </div>
             </div>
@@ -47,24 +47,25 @@
                     <p class="number">2</p>
                     <h4 class="head">Connection Requests</h4>
                 </div>
-                <div class="person">
+                <div class="person" id="move1">
                     <div class="friendpic">
                         <img src="./Images/todd-s.jpg" alt="Todd's image">
                         <p>Todd E</p>
                     </div>
                     <div class="icon">
-                        <img src="./Icons/accept-circle.png" alt="accept icon">
-                        <img src="./Icons/close-circle.png" alt="close icon">
+                        <img src="./Icons/accept-circle.png" alt="accept icon" onclick="accept()">
+                        <img src="./Icons/close-circle.png" alt="close icon" onclick="reject()">
                     </div>
+                    
                 </div>
-                <div class="person">
+                <div class="person" id="move2">
                     <div class="friendpic">
                         <img src="./Images/phil-s.jpg" alt="Phil's image">
                         <p>Phil K</p>
                     </div>
                     <div class="icon">
-                        <img src="./Icons/accept-circle.png" alt="accept icon">
-                        <img src="./Icons/close-circle.png" alt="close icon">
+                        <img src="./Icons/accept-circle.png" alt="accept icon" onclick="accept2()">
+                        <img src="./Icons/close-circle.png" alt="close icon" onclick="reject2()">
                         </div>
                 </div>
             </div>
@@ -95,5 +96,6 @@
             </div>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
